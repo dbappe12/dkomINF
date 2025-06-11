@@ -31,7 +31,7 @@
             <div class="card card-outline card-primary">
                 <div class="card-header text-center">
                 <a href="{{ route('login') }}" class="h1 d-flex align-items-center justify-content-center">
-                    <img src="{{ asset('img/logo_kmf.png') }}" alt="Logo" class="logo"><b>LOG IN <br> FRONT END</b></a>
+                    <img src="{{ asset('img/logo_l.png') }}" alt="Logo" class="logo"><b>LOG IN <br> FRONT END</b></a>
                 </div>
                 <div class="card-body">
                     <form method="POST" id="#recaptcha-form" action="{{ route('login') }}">
