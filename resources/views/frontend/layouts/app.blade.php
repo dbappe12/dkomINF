@@ -307,22 +307,21 @@ $currentMonth = Carbon::now();
                         <div class="col-xl-2 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="400ms">
                             <div class="footer-widget__newsletter">
                                 <div class="footer-widget__title-box">
-                                    <h4 class="footer-widget__title">Media Sosial</h4>
+                                    <h4 class="footer-widget__title">Kepala Dinas</h4>
                                 </div>
-                                <div class="site-footer__social">
-                                    <a href="{{ $setting->tiktok }}"><i class="fab fa-brands fa-tiktok"></i></a>
-                                    <a href="{{ $setting->facebook }}"><i class="fab fa-facebook"></i></a>
-                                   
-                                    <a href="{{ $setting->instagram }}"><i class="fab fa-instagram"></i></a>
+                                <div class="kepala-profile" style="text-align: center; margin-top: 20px;">
+                            <img src="{{ asset('img/kepala1.jpeg') }}" alt="Kepala {{config('app.nama_pic')}}" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #01805E;">
+                            <p style="margin-top: 10px; font-size: 14px; color: #fff; font-weight: 600;">{{config('app.nama_kadis')}}</p>
+                            <p style="font-size: 12px; color: #ccc; white-space: nowrap;">Kepala {{config('app.nama_pic')}}</p>
                                    </div>
                                    <!-- <br>
                                    <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100068441723342" data-tabs="timeline" data-width="50" data-height="50" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100068441723342" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100068441723342">Batanghari Jambi</a></blockquote></div> -->
                         <!-- Foto Kepala and Caption -->
-                        <div class="kepala-profile" style="text-align: center; margin-top: 20px;">
+                        <!-- <div class="kepala-profile" style="text-align: center; margin-top: 20px;">
                             <img src="{{ asset('img/kepala1.jpeg') }}" alt="Kepala {{config('app.nama_pic')}}" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #01805E;">
                             <p style="margin-top: 10px; font-size: 14px; color: #fff; font-weight: 600;">{{config('app.nama_kadis')}}</p>
                             <p style="font-size: 12px; color: #ccc; white-space: nowrap;">Kepala {{config('app.nama_pic')}}</p>
-                        </div>                                
+                        </div>                                 -->
                             </div>
                         </div>
                     </div>
