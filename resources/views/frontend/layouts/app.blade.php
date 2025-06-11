@@ -284,7 +284,7 @@ $currentMonth = Carbon::now();
                                     <h4 class="footer-widget__title">Contact</h4>
                                 </div>
                                 <p class="footer-widget__contact-text">{{$setting->alamat}}</p>
-                                <ul class="footer-widget__Contact-list list-unstyled" style="padding-bottom: 10px;">
+                                <ul class="footer-widget__Contact-list list-unstyled" style="padding-bottom: 15px;">
                                     <li>
                                         <div class="icon">
                                             <span class="icon-email"></span>
