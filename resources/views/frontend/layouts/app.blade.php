@@ -163,7 +163,7 @@ $currentMonth = Carbon::now();
                                 <!-- <li><a href="{{url('berita')}}" target="_blank">PPID</a></li> -->
                                 <li><a href="{{ url('berita') }}" class="{{ request()->is(['berita*','read*']) ? 'dropdown current' : '' }}">Berita</a></li>
                                 <li class="dropdown {{ request()->is('/') ? 'dropdown current' : '' }}">
-                                    <a href="{{ url('/') }}">Tentang {{config('app.nama_pic')}}</a>
+                                    <a href="{{ url('/') }}">Tentang</a>
                                     <ul>
                                         <!-- <li class="dropdown {{ request()->is('page/profil-batanghari*') ? 'dropdown current' : '' }}">
                                             <a href="#">Profil</a>
@@ -175,7 +175,7 @@ $currentMonth = Carbon::now();
                                                 <li><a href="{{ url('page/visi-dan-misi') }}" class="{{ request()->is('page/visi-dan-misi') ? 'dropdown current' : '' }}">Visi & Misi</a></li>
                                             </ul>
                                         </li> -->
-                                        <li><a href="{{ url('page/profil-dinas') }}" class="{{ request()->is('page/profil-dinas') ? 'dropdown current' : '' }}">Profil {{config('app.nama_pic')}}</a></li>
+                                        <li><a href="{{ url('page/profil-dinas') }}" class="{{ request()->is('page/profil-dinas') ? 'dropdown current' : '' }}">Profil</a></li>
                                         <li><a href="{{ url('page/visi-dan-misi') }}" class="{{ request()->is('page/visi-dan-misi') ? 'dropdown current' : '' }}">Visi dan Misi</a></li>
                                         <li><a href="{{ url('page/struktur-organisasi') }}" class="{{ request()->is('page/struktur-organisasi') ? 'dropdown current' : '' }}">Struktur Organisasi</a></li> 
                                         <li><a href="{{ url('page/profil-kepala-dinas') }}" class="{{ request()->is('page/profil-kepala-dinas') ? 'dropdown current' : '' }}">Profil Kepala Dinas</a></li>                                        
